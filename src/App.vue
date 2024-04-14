@@ -23,10 +23,18 @@ import { RouterLink, RouterView } from 'vue-router'
         <!--Produtos De Beleza-->
 
         <div class="productcarrousel gel">
-          <div class="productbg">
-            <img class="productimg" src="@/assets/productsimg/gelimg.png"/>
+          <div class="productbgbebidas">
+            <img class="productimg" src="@/assets/productsimg/oleobarba.png"/>
           </div>
-          <h2>Gel</h2>
+          <h2>Óleo Para Barba 30ml</h2>
+          <span>R$:30,00</span>
+        </div>
+
+        <div class="productcarrousel gel">
+          <div class="productbg">
+            <img class="productimg" src="@/assets/productsimg/gelericdavid.png"/>
+          </div>
+          <h2>Gel Blindado 300g</h2>
           <span>R$:15,00</span>
         </div>
 
@@ -34,15 +42,23 @@ import { RouterLink, RouterView } from 'vue-router'
           <div class="productbgbebidas">
             <img class="productimg" src="@/assets/productsimg/minoxidil.png"/>
           </div>
-          <h2>Minoxidil</h2>
-          <span>R$:95,00</span>
+          <h2>Minoxidil + Rolinho de Aplicação</h2>
+          <span>Sob Consulta</span>
         </div>
 
         <div class="productcarrousel gel">
           <div class="productbg">
             <img class="productimg" src="@/assets/productsimg/gelimg.png"/>
           </div>
-          <h2>Pomada Modeladora</h2>
+          <h2>Pomada Matte 150g</h2>
+          <span>R$:25,00</span>
+        </div>
+
+        <div class="productcarrousel gel">
+          <div class="productbg">
+            <img class="productimg" src="@/assets/productsimg/pomadaincolor.png"/>
+          </div>
+          <h2>Pomada modeladora incolor 150g </h2>
           <span>R$:20,00</span>
         </div>
 
@@ -57,18 +73,34 @@ import { RouterLink, RouterView } from 'vue-router'
       <!--Produtos De Beleza-->
       <div class="productcarrousel gel">
         <div class="productbgbebidas">
+          <img class="productimg" src="@/assets/productsimg/brahma.png"/>
+        </div>
+        <h2>Cerveja Brahma Duplo Malte 269ml</h2>
+        <span>R$:5,50</span>
+      </div> 
+
+      <div class="productcarrousel gel">
+        <div class="productbgbebidas">
+          <img class="productimg" src="@/assets/productsimg/heineken.png"/>
+        </div>
+        <h2>Cerveja Heineken 350ml</h2>
+        <span>R$:5,50</span>
+      </div> 
+
+      <div class="productcarrousel gel">
+        <div class="productbgbebidas">
           <img class="productimg" src="@/assets/productsimg/coronaneck.png"/>
         </div>
         <h2>Corona Long Neck 330ml</h2>
-        <span>R$:15,00</span>
-      </div>
+        <span>R$:10,00</span>
+      </div> 
 
       <div class="productcarrousel gel">
         <div class="productbgbebidas">
           <img class="productimg" src="@/assets/productsimg/coca.png"/>
         </div>
         <h2>Coca-Cola 350ml</h2>
-        <span>R$:15,00</span>
+        <span>R$:5,50</span>
       </div>
 
       <div class="productcarrousel gel">
@@ -76,7 +108,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <img class="productimg" src="@/assets/productsimg/guaranaantartica.png"/>
         </div>
         <h2>Guaraná antarctica 350ml</h2>
-        <span>R$:95,00</span>
+        <span>R$:5,50</span>
       </div>
 
       <div class="productcarrousel gel">
@@ -84,7 +116,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <img class="productimg" src="@/assets/productsimg/agua.png"/>
         </div>
         <h2>Água 500ml</h2>
-        <span>R$:20,00</span>
+        <span>R$:2,50</span>
       </div>
 
       <!--Fim do Produtos de Beleza-->
@@ -101,7 +133,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <img class="productimg" src="@/assets/productsimg/trentos.png"/>
         </div>
         <h2>Trentos Diversos</h2>
-        <span>R$:15,00</span>
+        <span>R$:4,00</span>
       </div>
 
       <div class="productcarrousel gel">
@@ -109,7 +141,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <img class="productimg" src="@/assets/productsimg/halls.png"/>
         </div>
         <h2>Halls</h2>
-        <span>R$:15,00</span>
+        <span>R$:2,50</span>
       </div>
 
       <!--Fim do Produtos de Beleza-->
@@ -199,7 +231,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
       <div class="priceacess">
         <p style="margin: 8px 12px 0 8px;">PREÇO:</p>
-        <p style="font-size: 32px; margin-left: 4px;">R$:75,00</p>
+        <p style="font-size: 32px; margin-left: 4px;">R$:95,00</p>
         <a class="agendar" disabled>AGENDE AGORA</a>
       </div>
 
@@ -255,7 +287,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
       <div class="priceacess">
         <p style="margin: 8px 12px 0 8px;">PREÇO:</p>
-        <p style="font-size: 32px; margin-left: 4px;">R$:75,00</p>
+        <p style="font-size: 32px; margin-left: 4px;">R$:95,00</p>
         <a class="agendar" disabled>AGENDE AGORA</a>
       </div>
 
@@ -280,7 +312,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <option value="mensalcortebarba">Corte e Barba</option>
       </optgroup>
 
-      <optgroup label="Avulsos:">
+      <optgroup label="Avulsos:" style="color:black">
         <option value="corte">Corte</option>
         <option value="barba">Barba</option>
         <option value="acabamento">Acabamento</option>
@@ -313,7 +345,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
       <div class="priceacess">
         <p style="margin: 8px 12px 0 8px;">PREÇO:</p>
-        <p style="font-size: 32px; margin-left: 4px;">R$135,00</p>
+        <p style="font-size: 32px; margin-left: 4px;">R$140,00</p>
         <a class="agendar" disabled>AGENDE AGORA</a>
       </div>
 
