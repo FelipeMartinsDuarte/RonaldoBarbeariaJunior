@@ -127,7 +127,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <label for="price">VEJA O PREÇO:</label>
 
     <select name="price" id="price" v-model="page">
-      <option value="initial">Selecione</option>
+      <option value="initial">Clique e selecione</option>
 
       <optgroup label="Planos Mensais:">
         <option value="mensalcorte">Corte</option>
@@ -160,7 +160,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <label for="price">VEJA O PREÇO:</label>
 
     <select name="price" id="price" v-model="page">
-      <option value="initial">Selecione</option>
+      <option value="initial">Clique e selecione</option>
 
       <optgroup label="Planos Mensais:">
         <option value="mensalcorte">Corte</option>
@@ -217,7 +217,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <label for="price">VEJA O PREÇO:</label>
 
     <select name="price" id="price" v-model="page">
-      <option value="initial">Selecione</option>
+      <option value="initial">Clique e selecione</option>
 
       <optgroup label="Planos Mensais:">
         <option value="mensalcorte">Corte</option>
@@ -272,7 +272,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <label for="price">VEJA O PREÇO:</label>
 
     <select name="price" id="price" v-model="page">
-      <option value="initial">Selecione</option>
+      <option value="initial">Clique e selecione</option>
 
       <optgroup label="Planos Mensais:">
         <option value="mensalcorte">Corte</option>
@@ -333,7 +333,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <label for="price">VEJA O PREÇO:</label>
 
     <select name="price" id="price" v-model="page">
-      <option value="initial">Selecione</option>
+      <option value="initial">Clique e selecione</option>
 
       <optgroup label="Planos Mensais:">
         <option value="mensalcorte">Corte</option>
@@ -387,7 +387,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <label for="price">VEJA O PREÇO:</label>
 
     <select name="price" id="price" v-model="page">
-      <option value="initial">Selecione</option>
+      <option value="initial">Clique e selecione</option>
 
       <optgroup label="Planos Mensais:">
         <option value="mensalcorte">Corte</option>
@@ -441,7 +441,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <label for="price">VEJA O PREÇO:</label>
 
     <select name="price" id="price" v-model="page">
-      <option value="initial">Selecione</option>
+      <option value="initial">Clique e selecione</option>
 
       <optgroup label="Planos Mensais:">
         <option value="mensalcorte">Corte</option>
@@ -496,7 +496,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <label for="price">VEJA O PREÇO:</label>
 
     <select name="price" id="price" v-model="page">
-      <option value="initial">Selecione</option>
+      <option value="initial">Clique e selecione</option>
 
       <optgroup label="Planos Mensais:">
         <option value="mensalcorte">Corte</option>
